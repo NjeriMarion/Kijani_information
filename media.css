@@ -1,10 +1,10 @@
 @media screen and (max-width:700px){
     .footer{
-        display: grid;
-        grid-template-columns: 20px 20px;
+        display: inline;
+        /* grid-template-columns: 20px; */
         gap: 2px;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: -10%px;
+        margin-right: 0px;
     }
     .navbar{
         
@@ -16,13 +16,16 @@
         grid-template-columns: auto auto auto;
     }
     body{
-        width:200px;
+        /* width:200px; */
+        margin: 0%;
+        /* font-size: 5px; */
+        padding: 0%;
     }
     .team {
         display: grid;
         grid-template-columns: 200px;
         margin-bottom: 5%;
-        margin-top: 3%;
+        margin-top: -210%;
         padding-left: 8%;
         width: fit-content;
     }
@@ -33,6 +36,7 @@
         width: fit-content;
     }
     .about{
+        display: none !important;
         display: grid;
         grid-template-columns: 20px;
         
@@ -84,10 +88,34 @@
     }
     #message{
         margin-top: 3%;
-        width: fit-content;
+        margin-left: -20%;
+        /* width: fit-content; */
         height: 10%;
     }
     .form{
-        margin-top: 30%;
+        margin-left: -1%;
+        padding: 0;
+    }
+    .f-v{
+        margin-bottom: 190%;
+        padding-left: -20%;
+        padding: 0%;
+    }
+    .team div img{
+        width: 200px;
+        height: 200px;
+    }
+    footer{
+        padding:0% -51%;
+        display: none !important;
+    }
+    .submit{
+        margin-left: -3%;
+    }
+    #intouch{
+        font-size: 10px;
+        margin-left: -50%;
+        width: fit-content;
+        margin: 0 33% 4% 0%;
     }
 }
