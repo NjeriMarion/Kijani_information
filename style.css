@@ -176,7 +176,7 @@ textarea{
 
 #message{
     margin-top: 3%;
-   
+   margin-left: 33%;
     /* width: 51%;
     height: 10%; */
     border-bottom-right-radius: 30%;
@@ -195,7 +195,7 @@ textarea{
         border-radius: 15px;
         border-style: none;
         margin-right: 10%;
-        margin-left: 1%;
+        margin-left: 33%;
         margin-bottom: 10%;
         color: #B2F2BB;
     
